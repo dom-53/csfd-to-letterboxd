@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ČSFD - Letterboxd Link</title>
+  <link rel="stylesheet" href="./settings.css">
+</head>
+<body class="popup">
+  <main>
+    <h1 data-i18n="extensionName"></h1>
+    <p id="page-status" role="status"></p>
+    <label for="mode" data-i18n="modeLabel"></label>
+    <select id="mode" name="mode" disabled>
+      <option value="auto" data-i18n="mode_auto"></option>
+      <option value="csfd_only" data-i18n="mode_csfd_only"></option>
+      <option value="wikidata_only" data-i18n="mode_wikidata_only"></option>
+      <option value="search_only" data-i18n="mode_search_only"></option>
+    </select>
+    <label for="theme" data-i18n="themeLabel"></label>
+    <select id="theme" name="theme" disabled>
+      <option value="auto" data-i18n="theme_auto"></option>
+      <option value="light" data-i18n="theme_light"></option>
+      <option value="dark" data-i18n="theme_dark"></option>
+    </select>
+    <button id="open-options" type="button" data-i18n="openOptions"></button>
+    <p id="settings-status" role="status"></p>
+  </main>
+  <script type="module" src="./settings-ui.ts"></script>
+</body>
+</html>

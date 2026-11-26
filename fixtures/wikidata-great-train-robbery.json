@@ -1,0 +1,13 @@
+{
+  "head": {"vars":["film","imdb","tmdb","letterboxd"]},
+  "results": {
+    "bindings": [
+      {
+        "film": {"type":"uri","value":"http://www.wikidata.org/entity/Q470329"},
+        "imdb": {"type":"literal","value":"tt0000439"},
+        "tmdb": {"type":"literal","value":"5698"},
+        "letterboxd": {"type":"literal","value":"the-great-train-robbery"}
+      }
+    ]
+  }
+}

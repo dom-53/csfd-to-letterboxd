@@ -1,0 +1,32 @@
+{
+  "name": "csfd-to-letterboxd",
+  "version": "0.1.1",
+  "private": true,
+  "author": "dom53",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": "^22.12.0 || ^24.0.0"
+  },
+  "scripts": {
+    "dev": "node scripts/build.mjs bookmarklet && vite --config vite.site.mjs",
+    "lint": "oxlint --deny-warnings src tests scripts vite.site.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "build:extension": "node scripts/build.mjs extension",
+    "build:bookmarklet": "node scripts/build.mjs bookmarklet",
+    "build:site": "node scripts/build.mjs site",
+    "package:extension": "npm run build:extension && node scripts/package-extension.mjs",
+    "verify:wikidata": "node scripts/verify-wikidata.mjs"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.3.8",
+    "@types/node": "24.19.4",
+    "fflate": "0.8.3",
+    "happy-dom": "21.0.4",
+    "oxlint": "1.95.0",
+    "typescript": "7.0.2",
+    "vite": "8.4.0",
+    "vitest": "5.1.2"
+  }
+}

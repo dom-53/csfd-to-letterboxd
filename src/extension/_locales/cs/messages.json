@@ -1,0 +1,104 @@
+{
+  "extensionName": {
+    "message": "ČSFD - Letterboxd Link"
+  },
+  "extensionDescription": {
+    "message": "Nezávislé rozšíření pro otevření filmu z ČSFD na Letterboxd."
+  },
+  "openFilm": {
+    "message": "Otevřít na Letterboxd"
+  },
+  "unsupported": {
+    "message": "Nejdřív otevřete stránku filmu na ČSFD."
+  },
+  "supported": {
+    "message": "Stránka filmu je připravena."
+  },
+  "error_not_found": {
+    "message": "Odpovídající identifikátor filmu se nepodařilo najít."
+  },
+  "error_conflict": {
+    "message": "Wikidata vrátila rozporné identifikátory filmu."
+  },
+  "error_unavailable": {
+    "message": "Vyhledání teď není dostupné. Zkuste to znovu."
+  },
+  "error_timeout": {
+    "message": "Wikidata neodpověděla včas."
+  },
+  "error_rate_limited": {
+    "message": "Wikidata omezila počet požadavků. Zkuste to později."
+  },
+  "error_missing_title": {
+    "message": "Na ČSFD chybí název filmu pro vyhledávání."
+  },
+  "error_navigation_failed": {
+    "message": "Cíl se nepodařilo otevřít. Zkuste to znovu na stránce filmu."
+  },
+  "error_invalid_request": {
+    "message": "Požadavek na otevření filmu byl zamítnut."
+  },
+  "modeLabel": {
+    "message": "Režim vyhledání"
+  },
+  "mode_auto": {
+    "message": "Automaticky"
+  },
+  "mode_csfd_only": {
+    "message": "Pouze ČSFD"
+  },
+  "mode_wikidata_only": {
+    "message": "Pouze Wikidata"
+  },
+  "mode_search_only": {
+    "message": "Pouze vyhledávání"
+  },
+  "themeLabel": {
+    "message": "Motiv"
+  },
+  "theme_auto": {
+    "message": "Automaticky"
+  },
+  "theme_light": {
+    "message": "Světlý"
+  },
+  "theme_dark": {
+    "message": "Tmavý"
+  },
+  "openOptions": {
+    "message": "Úplné nastavení"
+  },
+  "optionsTitle": {
+    "message": "Nastavení"
+  },
+  "fallbackLabel": {
+    "message": "Vyhledat film, pokud přímý odkaz chybí"
+  },
+  "cacheLabel": {
+    "message": "Ukládat mapování filmů místně"
+  },
+  "newTabLabel": {
+    "message": "Otevřít Letterboxd v nové záložce"
+  },
+  "clearCache": {
+    "message": "Vymazat uložená mapování"
+  },
+  "cacheCleared": {
+    "message": "Uložená mapování byla vymazána."
+  },
+  "settingsSaved": {
+    "message": "Nastavení bylo uloženo."
+  },
+  "settingsError": {
+    "message": "Změnu se nepodařilo uložit."
+  },
+  "settingsLoadError": {
+    "message": "Nastavení se nepodařilo načíst."
+  },
+  "privacyTitle": {
+    "message": "Soukromí"
+  },
+  "privacyInfo": {
+    "message": "Když rozšíření potřebuje Wikidata, odešle nadaci Wikimedia ID filmu na ČSFD. Mapování a nastavení se ukládají místně. Rozšíření neobsahuje analytiku a nevyžaduje účet."
+  }
+}

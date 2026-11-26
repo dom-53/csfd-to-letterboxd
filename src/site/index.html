@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Přidejte si bookmarklet pro otevření odpovídajícího filmu na Letterboxd ze stránky ČSFD.">
+  <title>ČSFD - Letterboxd Link</title>
+  <link rel="stylesheet" href="./site.css">
+  <script type="module" src="./site.ts"></script>
+</head>
+<body>
+  <header class="top wrap">
+    <a class="brand" href="./"><span class="mark" aria-hidden="true"></span>ČSFD - Letterboxd Link</a>
+    <nav aria-label="Hlavní navigace">
+      <a href="https://github.com/dom-53/csfd-to-letterboxd" data-build-link="project">GitHub</a>
+      <a href="https://chromewebstore.google.com/detail/EXTENSION_ID" data-build-link="store">Chrome Web Store</a>
+      <a href="./privacy.html">Ochrana soukromí</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="hero" aria-labelledby="headline">
+      <h1 id="headline">Z ČSFD na Letterboxd<span>.</span></h1>
+      <div class="bookmarklet" id="bookmarklet">
+        <a class="button drag" id="bookmarklet-link" draggable="true" href="#bookmarklet-code">Otevřít na Letterboxd</a>
+        <p class="install-instruction">Přetáhněte odkaz do lišty záložek. Potom na záložku klikněte na stránce filmu na ČSFD.</p>
+        <p class="shortcut-note">Lištu v Chromu zobrazíte klávesami <span class="shortcut"><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd></span> (na Macu <span class="shortcut"><kbd>⌘</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd></span>).</p>
+        <details id="bookmarklet-code">
+          <summary>Ruční instalace</summary>
+          <p>Vytvořte novou záložku a do pole URL vložte celý kód včetně předpony <code>javascript:</code>.</p>
+          <label for="code">Kód záložky</label>
+          <textarea id="code" readonly spellcheck="false" rows="3"></textarea>
+          <button class="secondary" id="copy" type="button" disabled>Kopírovat kód</button>
+          <p id="copy-status" role="status"></p>
+          <p>Pokud se nepodaří spojit s Wikidata, záložka otevře vyhledávání na Letterboxd.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>

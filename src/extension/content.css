@@ -1,0 +1,57 @@
+#csfd-to-letterboxd-controls {
+  --lb-text: light-dark(#235585, #c2ddff);
+  --lb-surface: light-dark(#e2e7ee, #303c4b);
+  --lb-hover: light-dark(#d4dfed, #3d4e62);
+  --lb-line: light-dark(#c9d4e2, #526278);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .3rem .65rem;
+  margin-block: .55rem .4rem;
+  color-scheme: light dark;
+}
+
+#csfd-to-letterboxd-controls[data-theme="light"] { color-scheme: only light; }
+#csfd-to-letterboxd-controls[data-theme="dark"] { color-scheme: only dark; }
+
+#csfd-to-letterboxd-controls .csfd-to-letterboxd-primary {
+  appearance: none;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  min-block-size: 1.75rem;
+  margin: 0;
+  padding: .2rem .7rem;
+  border: 1px solid var(--lb-line);
+  border-radius: 999px;
+  box-shadow: none;
+  background: var(--lb-surface);
+  color: var(--lb-text);
+  cursor: pointer;
+  font: inherit;
+  font-size: .8125rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-decoration: none;
+  text-transform: none;
+}
+
+#csfd-to-letterboxd-controls .csfd-to-letterboxd-primary:hover:not(:disabled) {
+  background: var(--lb-hover);
+}
+
+#csfd-to-letterboxd-controls .csfd-to-letterboxd-primary:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+#csfd-to-letterboxd-controls .csfd-to-letterboxd-primary:disabled {
+  opacity: .6;
+  cursor: wait;
+}
+
+#csfd-to-letterboxd-controls .csfd-to-letterboxd-external { font-size: .9em; }
+#csfd-to-letterboxd-controls .csfd-to-letterboxd-status { font-size: .8125rem; }
+#csfd-to-letterboxd-controls .csfd-to-letterboxd-status:empty { position: absolute; }
