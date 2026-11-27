@@ -6,11 +6,13 @@ Nezávislé rozšíření pro Chrome a bookmarklet, které ze stránky filmu na 
 
 ## Instalace
 
-### Rozšíření pro Chrome
+Rozšíření vyžaduje Chrome 126 nebo novější.
 
-[Chrome Web Store (ukázkový odkaz)](https://chromewebstore.google.com/detail/EXTENSION_ID). Po vydání doplníme skutečné ID rozšíření.
+### Instalace z Chrome Web Store
 
-Vyžaduje Chrome 126 nebo novější.
+Otevřete [stránku rozšíření v Chrome Web Store](https://chromewebstore.google.com/detail/jekombdogpinpimpiaboddbjfmflaibg), klikněte na **Přidat do Chromu** a potvrďte instalaci.
+
+### Ruční instalace rozšíření
 
 1. Rozbalte ZIP rozšíření nebo sestavte složku `dist/extension/` ze zdrojového kódu podle pokynů v sekci [Vývoj](#vývoj).
 2. Otevřete `chrome://extensions` a zapněte **Režim pro vývojáře**.
