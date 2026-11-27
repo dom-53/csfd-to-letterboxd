@@ -2,7 +2,7 @@
 
 Nezávislé rozšíření pro Chrome a bookmarklet, které ze stránky filmu na ČSFD otevřou odpovídající film na Letterboxd.
 
-**[Instalační web na GitHub Pages](https://dom-53.github.io/csfd-to-letterboxd/)** · [Repozitář na GitHubu](https://github.com/dom-53/csfd-to-letterboxd)
+**[Instalační web pro Bookmarklet namísto rozšíření](https://dom-53.github.io/csfd-to-letterboxd/)**
 
 ## Instalace
 
